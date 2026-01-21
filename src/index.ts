@@ -9,6 +9,7 @@ const port = 18081;
 app.use(
   express.json({
     type: ["application/json", "application/vnd.kafka.binary.v2+json"],
+    limit: process.env.BODY_LIMIT || "50mb",
   })
 );
 

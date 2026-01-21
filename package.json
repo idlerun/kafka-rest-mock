@@ -18,13 +18,13 @@
   "license": "ISC",
   "description": "Mock Kafka REST-Proxy",
   "dependencies": {
-    "express": "^5.1.0",
-    "js-yaml": "^4.1.0"
+    "express": "^5.2.1",
+    "js-yaml": "^4.1.1"
   },
   "devDependencies": {
-    "@types/express": "^5.0.2",
+    "@types/express": "^5.0.6",
     "@types/js-yaml": "^4.0.9",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   }
 }
